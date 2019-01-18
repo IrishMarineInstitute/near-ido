@@ -1,0 +1,3 @@
+language: csharp
+script:
+    - csc -target:library /src/csErddap.cs /src/nearIDO.cs
